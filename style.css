@@ -1,0 +1,219 @@
+* {
+    text-align: center;
+}
+
+
+html > div[style] {
+    display: none !important;
+}
+
+header {
+    color: #E50914;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header h2 {
+    color: whitesmoke;
+    margin: 0.5rem 0 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: whitesmoke;
+    line-height: 1.6;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#container {
+    color: whitesmoke;
+    margin: 0.5rem 0 0;
+    font-size: 1.0rem;
+    font-weight: normal;
+}
+
+#navlinks a {
+    list-style: none;
+    font-size: 14px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#preview-container video {
+    width: 100%;
+}
+
+h3 {
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+input {
+    border-radius: 5px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+#icone-busca {
+    height: 20px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+#logo {
+    height: 40px;
+}
+
+#navbar {
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    padding: 10px 60px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 11;
+}
+
+#navlinks {
+    display: flex;
+}
+
+#preview-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#preview-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#preview-detalhes {
+    color: rgba(250, 250, 250, 0.8);;
+    position: absolute;
+    top: 40%;
+    left: 50px;
+    z-index: 10;
+}
+
+#preview-detalhes button {
+    margin: 5px;
+    padding: 10px 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#preview-detalhes button:hover {
+    background-color: rgba(250, 250, 250, 0.8);
+    color: #222;
+}
+
+.genero {
+    padding: 10px 0;
+}
+
+.genero img {
+    width: 230px;
+    margin-right: 10px;
+}
+
+#categorias {
+    padding: 0 50px;
+}
+
+.zoom {
+    transition: transform 0.4s; 
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #111;
+    color: rgba(250, 250, 250, 0.8);
+    text-align: center;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between; 
+    right: 0;
+    left: 0;
+    padding-left: 60vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+
+p {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+#instagramlogo {
+    padding-top: 11px;
+    padding-right: 30px;
+    color: whitesmoke;
+    vertical-align: middle;
+    height: 24px;
+    width: auto;
+    margin-top: 5px;
+}
+
+@media (min-width: 768px) {
+    header {
+        padding: 2rem 0;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    header h2 {
+        font-size: 2rem;
+    }
+
+    .container {
+        padding: 2rem 4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    header h1 {
+        font-size: 3.5rem;
+    }
+
+    header h2 {
+        font-size: 2.5rem;
+    }
+
+    .container {
+        padding: 2rem 6rem;
+    }
+}
+
+
+
